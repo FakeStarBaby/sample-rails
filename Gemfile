@@ -25,6 +25,25 @@ group :doc do
 end
 
 group :development do
+  # Debugs
+  gem 'annotate', git: 'git://github.com/ctran/annotate_models.git'
+  gem 'awesome_print'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'bullet'
+  gem 'hirb'
+  gem 'hirb-unicode'
+  gem 'letter_opener'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
+  gem 'quiet_assets'
+  gem 'rack-mini-profiler'
+  gem 'tapp'
+  gem 'view_source_map'
+  gem 'xray-rails'
+
   # Locale
   gem 'i18n_generators'
 end
