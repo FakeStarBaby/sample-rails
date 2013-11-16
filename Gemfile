@@ -23,3 +23,8 @@ gem 'turbolinks'
 group :doc do
   gem 'sdoc', require: false
 end
+
+group :development do
+  # Locale
+  gem 'i18n_generators'
+end
