@@ -47,3 +47,16 @@ group :development do
   # Locale
   gem 'i18n_generators'
 end
+
+group :test, :development do
+  # TDD
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
+  gem 'guard-annotate'
+  gem 'guard-rspec', require: false
+  gem 'guard-bundler'
+  gem 'rspec-rails'
+  gem 'spring'
+  gem 'spring-commands-rspec', require: false
+end
