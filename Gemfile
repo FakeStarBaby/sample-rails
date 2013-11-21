@@ -62,4 +62,5 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'spring'
   gem 'spring-commands-rspec', require: false
+  gem 'turnip'
 end
